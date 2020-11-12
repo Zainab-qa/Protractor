@@ -8,6 +8,7 @@ let homepage = function(){
     let gotButton = element(by.css('[ng-click="doAddition()"]'))
     let output = element(by.cssContainingText('.ng-binding','7'))
    
+    console.log("New change added");
     this.get = function(url){
         browser.get(url)
     }
