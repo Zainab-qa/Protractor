@@ -9,6 +9,7 @@ let homepage = function(){
     let output = element(by.cssContainingText('.ng-binding','7'))
    
     console.log("New change added from dev branch");
+    console.log('Hi i am from dev2 brnach');
     this.get = function(url){
         browser.get(url)
     }
