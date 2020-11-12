@@ -8,7 +8,8 @@ let homepage = function(){
     let gotButton = element(by.css('[ng-click="doAddition()"]'))
     let output = element(by.cssContainingText('.ng-binding','7'))
    
-    console.log("New change added");
+    console.log("New change added from dev branch");
+    console.log('Hi i am from dev2 brnach');
     this.get = function(url){
         browser.get(url)
     }
